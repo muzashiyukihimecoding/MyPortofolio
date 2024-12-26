@@ -1,0 +1,19 @@
+.root {
+   /* Blues */
+   --deep-blue-backgound: #213555; /* rgb(33, 53, 85); */
+   --lighter-blue: #3e5879; /* rgb(62, 88, 121) */
+
+   /* ----- */
+   /* Purples */
+   --darkest-purple: #10091d;
+   --gentle-purple: #28193d;
+   --light-purple: #46315c;
+   --soft-purple: #68507b;
+   --peach-purple: #8d769a;
+   --ultras-purple: #b3a3ba;
+   --white-purple: #d9d9d9;
+   
+   
+   /* ----- */
+   /*  */
+}

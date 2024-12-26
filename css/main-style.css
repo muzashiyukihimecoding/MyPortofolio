@@ -1,0 +1,142 @@
+/* Only this page just has some colour palletes.
+   If you wanna take some, please. Or you can also visit www.colorhunt.co in your browser self to get more colour pallete what you want.
+*/
+
+:root {
+   /* Bluey */
+   --deep-blue-backgound: #213555; /* rgb(33, 53, 85); */
+   --lighter-blue: #3e5879; /* rgb(62, 88, 121) */
+   /* Creamy */
+   --whipe-cream: #d8c4b6; /* rgb(216, 196, 182) */
+   --ultrasmooth-cream: #f5efe7; /* rgb(245, 239, 231) */
+   --darkest-purple: #10091d;
+   /* Purpyy */
+   --gentle-purple: #28193d;
+   --light-purple: #46315c;
+   --soft-purple: #68507b;
+   --peach-purple: #8d769a;
+   --ultras-purple: #b3a3ba;
+   --white-purple: #d9d9d9;
+}
+
+/* Usabe font for this Portofolio : Lucida Sans and series;
+   Not added from url yet -> You must use url font!
+   This is my first web portofolio project 
+*/
+/* CSS Bonus
+   1rem = 16px;
+   z-index: 1000 = make your navbar upset to all objects;
+*/
+
+html,
+body {
+   margin: 0;
+   background-color: var(--gentle-purple);
+   font-family: "Poppins", "Lucida Sans Regular", "Lucida Bright", "Lucida Sans",
+      "Lucida Sans Regular", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/* Navbar Styles started from here */
+nav {
+   display: flex;
+   /* flex-direction: row; */
+   justify-content: space-between;
+   width: 100%;
+   margin: auto;
+   padding: 2rem;
+   /* border-radius: 0 0 16px 16px; */
+   background-color: var(--ultrasmooth-cream);
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 1000;
+}
+
+ul {
+   list-style-type: none;
+   align-content: center;
+   align-items: center;
+}
+
+a {
+   color: var(--lighter-blue);
+   /* width: 300; */
+}
+.left-nav {
+   display: flex;
+   /* flex-direction: column; */
+   align-self: flex-start;
+   margin: 0;
+   padding-left: 1rem;
+   gap: 1rem;
+}
+
+.left-nav img {
+   width: 72px;
+   height: 72px;
+}
+
+.right-nav {
+   display: flex;
+   justify-content: space-evenly;
+   gap: 26px;
+   /* padding-right: 72px; */
+   padding-right: 5rem;
+}
+
+.right-nav li a {
+   text-decoration: none;
+   font-weight: 500;
+}
+
+/* Main Container Greeting started from here */
+.container-main {
+   margin: 24px;
+   margin-top: 118px;
+   padding: 48px;
+   color: white;
+   align-content: center;
+   align-items: center;
+   display: flex;
+   justify-content: space-between;
+}
+
+.container-main h1 {
+   /*  */
+}
+
+.container-main p {
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 36px;
+}
+
+.container-main a {
+   text-decoration: none;
+   color: var(--deep-blue-backgound);
+   background-color: var(--whipe-cream);
+   padding: 16px;
+   border-radius: 12px;
+   /* margin-top: 12px; */
+}
+
+.container-main img {
+   /* width: 256px; */
+   /* height: 512px; */
+   width: 20%;
+}
+
+/* Media Responsove on Display 1280px */
+@media only screen and (max-width: 1280px) {
+   .right-nav {
+      gap: 1rem;
+   }
+}
+
+/* Media Responsove on Display 1280px */
+@media only screen and (max-width: 1080px) {
+   .container-main img {
+      /* width: 128px; */
+      /* height: 256px; */
+   }
+}
